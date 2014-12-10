@@ -4,7 +4,7 @@
   <title><![CDATA[scotthale]]></title>
   <link href="http://bozcotty.github.io/atom.xml" rel="self"/>
   <link href="http://bozcotty.github.io/"/>
-  <updated>2014-12-10T16:50:42-07:00</updated>
+  <updated>2014-12-10T16:52:30-07:00</updated>
   <id>http://bozcotty.github.io/</id>
   <author>
     <name><![CDATA[Scott Hale]]></name>
@@ -37,7 +37,7 @@ $ rake db:migrate
 lately? A new migration file does not a full migration make. You need to run this command to get your latest object/model changes into the database. Also, always check the schema file in the db folder to make sure your model tables look right.</p></li>
 <li><p>Are you in the right directory of your file structure? Check your terminal!</p></li>
 <li><p>Copy/paste errors. Universal to all programming. Have you checked the easy-to-overlook errors from the last file you copy/pasted from? &lsquo;Best to avoid copy/paste if you can and just type everything in.</p></li>
-<li><p>Are you missing files you swear you&rsquo;ve already created and committed to GitHub? You may not be in the same git branch as the one where you made those changes. You could be in the wrong branch, or (see #4 above) in the wrong project directory altogether. Always check your branch when getting back into your project with
+<li><p>Are you missing files you swear you&rsquo;ve already created and committed to GitHub? You may not be in the same git branch as the one where you made those changes. You could be in the wrong branch, or (see #4 above) in the wrong project directory altogether. Get in the habit of checking your branch whenever you start a new coding session with
 <code>
 $ git br
 </code></p></li>
