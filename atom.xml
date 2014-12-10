@@ -4,7 +4,7 @@
   <title><![CDATA[scotthale]]></title>
   <link href="http://bozcotty.github.io/atom.xml" rel="self"/>
   <link href="http://bozcotty.github.io/"/>
-  <updated>2014-11-20T11:47:53-07:00</updated>
+  <updated>2014-12-10T16:42:31-07:00</updated>
   <id>http://bozcotty.github.io/</id>
   <author>
     <name><![CDATA[Scott Hale]]></name>
@@ -14,11 +14,37 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Welcome]]></title>
-    <link href="http://bozcotty.github.io/blog/2014/11/20/welcome/"/>
-    <updated>2014-11-20T10:56:10-07:00</updated>
-    <id>http://bozcotty.github.io/blog/2014/11/20/welcome</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[8 Easy Rails Checks Before You Call for Backup]]></title>
+    <link href="http://bozcotty.github.io/blog/2014/12/10/8-easy-rails-checks-before-you-call-for-backup/"/>
+    <updated>2014-12-10T14:58:57-07:00</updated>
+    <id>http://bozcotty.github.io/blog/2014/12/10/8-easy-rails-checks-before-you-call-for-backup</id>
+    <content type="html"><![CDATA[<p>New to Rails? New to Code? The following 8 code checks remedy common sequence and syntax-related mistakes you might make when new to Rails, or new to coding in general. Before getting on stack overflow or calling your wizard coding buddy, check these 8 items first.<!-- more --></p>
+
+<ol>
+<li><p>Did you run
+     <code>
+     $ bundle install
+    </code>
+after adding those gems to your gemfile?</p></li>
+<li><p>Something not showing up in localhost like you expected? Did your changes change the database in some way? In your terminal window where you&rsquo;re running the local server, hit (ctrl + c), to stop the server, then restart:
+<code>
+$ rails s
+</code></p></li>
+<li><p>Have your run
+<code>
+$ rake db:migrate
+</code>
+lately? A new migration file does not a full migration make. You need to run this command to get your latest object/model changes into the database. Also, always check the schema file in the db folder to make sure your model tables look right.</p></li>
+<li><p>Are you in the right directory of your file structure? Check your terminal!</p></li>
+<li><p>Copy/paste errors. Universal to all programming. Have you checked the easy-to-overlook errors from the last file you copy/pasted from? &lsquo;Best to avoid copy/paste if you can and just type everything in.</p></li>
+<li><p>Are you missing files you swear you&rsquo;ve already created and committed to GitHub? You may not be in the same git branch as the one where you made those changes. You could be in the wrong branch, or (see #4 above) in the wrong project directory altogether. Always</p></li>
+<li><p>Syntax errors don&rsquo;t lie. If that&rsquo;s the message you&rsquo;re getting, start looking for typos, missing parens, bad commands and&hellip; incorrect syntax.</p></li>
+<li><p>Did you READ the error message?
+Items 1 - 7 when checked, will make your life easier. Item 8? This is the one that&rsquo;s going to make you a much better developer, more quickly. It&rsquo;s natural to fear the error message. Just get over it and start reading them and discovering what they mean. Copy and paste the messages wholesale into a google search and see what comes up. Comprehending error messages will speed up your debugging immensely.</p></li>
+</ol>
+
+
+<p>Let me know if you think I&rsquo;ve missed some other common mistakes you consistently made when you were new to Rails/coding and maybe I&rsquo;ll amend the list!</p>
 ]]></content>
   </entry>
   
