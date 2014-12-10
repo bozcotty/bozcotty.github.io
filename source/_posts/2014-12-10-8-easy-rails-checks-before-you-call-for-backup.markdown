@@ -34,7 +34,10 @@ New to Rails? New to Code? The following 8 code checks remedy common sequence an
 5.  Copy/paste errors. Universal to all programming. Have you checked the easy-to-overlook errors from the last file you copy/pasted from? 'Best to avoid copy/paste if you can and just type everything in.
 
 
-6.  Are you missing files you swear you've already created and committed to GitHub? You may not be in the same git branch as the one where you made those changes. You could be in the wrong branch, or (see #4 above) in the wrong project directory altogether. Always
+6.  Are you missing files you swear you've already created and committed to GitHub? You may not be in the same git branch as the one where you made those changes. You could be in the wrong branch, or (see #4 above) in the wrong project directory altogether. Always check your branch when getting back into your project with
+  ```
+  $ git br
+  ```
 
 
 7.  Syntax errors don't lie. If that's the message you're getting, start looking for typos, missing parens, bad commands and... incorrect syntax.
